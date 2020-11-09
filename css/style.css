@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+/*---------- Designing language links----------*/
+
+.langWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#lnk {
+  background-color: rgb(216, 21, 21);
+  
+}
+ 
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(105, 103, 103);
+  padding: 0 10px;
+  font-size: large;
+}
+
+a.active {
+  background-color: #043b04;
+}
+
+a:hover {
+  width: 60px;
+  transition: width 400ms ease;
+  color: #ebf1eb;
+  
+}
+
+/*-----------------Left Side Bar------------- */
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-bar {
+  width: 85px;
+  height: 80vh;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu {
+  width: 50px;
+  text-align: center;
+  position: relative;
+  padding-left: -20%;
+  padding-right: -20%;
+  transform: translateY(-50%);
+  background: transparent;
+}
+
+.menu img {
+  width: 25px;
+  margin: 5px auto;
+  cursor: pointer;
+}
+
+.menu img:hover {
+  width: 50px;
+  transition: width 400ms ease;
+}
+
+/*---------------- Desiginig Scroll Icon-------------*/
+
+h6 {
+  position: relative;
+  text-orientation: upright;
+  margin-top: 0px;
+  writing-mode: vertical-rl;
+  cursor: pointer;
+  bottom: -370px;
+  font: 2px;
+}
+
+/*-----------------Right Side Bar------------- */
+.right-bar {
+  width: 50px;
+  height: 80vh;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.social-media {
+  width: 50px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-80%);
+  background: transparent;
+}
+
+.social-media img,
+.other-media img {
+  width: 25px;
+  margin: 5px auto;
+  cursor: pointer;
+}
+
+.other-media {
+  width: 50px;
+  text-align: center;
+  position: absolute;
+  bottom: -120px;
+}
+
+/*--------Section-designing---------------*/
+
+.txt-section {
+margin-top: 50px;
+}
+
+section {
+  width: 1350px;
+  height: 400px;
+  margin-top: -50px;
+  background: linear-gradient(#679267, #2e8b57);
+}
+
+/*-------------Text decoration------------*/
+
+
+.description1 {
+  padding: 0px;
+  font-size: 60px;
+  font-family: 'Lora', serif;
+}
+
+.description2 {
+  padding: 25px;
+  margin-top: -90px;
+  font-size: 60px;
+  font-family: 'Lora', serif;
+}
+
+p {
+  text-align: center;
+  padding-top: 50px;
+  color: whitesmoke;
+  line-height: bold;
+  font-size: 80px;
+  text-transform: capitalize;
+  font-family: "Lobster", cursive;
+}
+
+h2 {
+  text-align: center;
+  color: #2e8b57;
+  line-height: bold;
+  font-size: 100px;
+  text-transform: capitalize;
+  margin-top: -60px;
+  font-family: "Dancing Script", cursive;
+}
